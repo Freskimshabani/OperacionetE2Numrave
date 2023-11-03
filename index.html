@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ushtrimi 2 Java 4 - Freskim Shabani</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+    <form>
+        <label for="firstNumber">Enter First Number:</label>
+        <input type="number" name="firstNumber" id="firstNumberInput">
+
+        <label for="secondNumber">Enter Second Number:</label>
+        <input type="number" name="secondNumber" id="secondNumberInput">
+
+        <button onclick="calculateNumbers()" type="button" id="calculateButton">Calculate</button>
+    </form>
+    <table>
+        <thead>
+            <th>Operations</th>
+            <th id="xNumberDisplay">x</th>
+            <th id="yNumberDisplay">y</th>
+        </thead>
+        <tr>
+            <!-- Shfaqja e shumes se dy numrave -->
+            <td>Shuma</td>
+            <td id="sumResult" colspan="2"></td>
+        </tr>
+        <tr>
+            <!-- Shfaqja e ndryshimit te dy numrave -->
+            <td>Ndryshimi</td>
+            <td id="difResult" colspan="2"></td>
+        </tr>
+        <tr>
+            <!-- Shfaqja e prodhimit te dy numrave -->
+            <td>Prodhimi</td>
+            <td id="prodResult" colspan="2"></td>
+        </tr>
+        <tr>
+            <!-- Shfaqja e pjestimit te dy numrave -->
+            <td>Pjestimi</td>
+            <td id="divResult" colspan="2"></td>
+        </tr>
+        <tr>
+            <!-- Shfaqja e mbetjes se pjestimit te dy numrave -->
+            <td>Moduli</td>
+            <td id="modResult" colspan="2"></td>
+        </tr>
+    </table>
+    <h1>Freskim Shabani Ferizaj</h1>
+</body>
+
+</html>
